@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "customer": "John Doe",
+    "quantity": 2,
+    "food": "Cheese Burger",
+    "price": 15
+  },
+  {
+    "id": "2",
+    "customer": "Sarah Smith",
+    "quantity": 1,
+    "food": "Chicken Pizza",
+    "price": 20
+  },
+  {
+    "id": "3",
+    "customer": "Michael Johnson",
+    "quantity": 3,
+    "food": "Pasta Alfredo",
+    "price": 30
+  },
+  {
+    "id": "4",
+    "customer": "Emily Brown",
+    "quantity": 2,
+    "food": "Sushi Roll",
+    "price": 25
+  },
+  {
+    "id": "5",
+    "customer": "David Wilson",
+    "quantity": 4,
+    "food": "Grilled Sandwich",
+    "price": 18
+  },
+  {
+    "id": "81",
+    "customer": "Ameer",
+    "quantity": 4,
+    "food": "Kari",
+    "price": 1500
+  }
+]
