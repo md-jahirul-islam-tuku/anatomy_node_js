@@ -60,10 +60,3 @@ class OrderService {
   }
 }
 export const orderService = new OrderService();
-
-// await orderService.create({
-//   customer: "Ameer",
-//   quantity: 4,
-//   food: "Kari",
-//   price: 1500,
-// });
