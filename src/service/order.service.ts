@@ -18,12 +18,12 @@ class OrderService {
     await fs.writeFile(DB_PATH, JSON.stringify(data, null, 2));
   }
 
-  async get() {
+  async get(): Promise<Order[]> {
     const data = await this.readData();
     return data;
   }
 
-  async getById(id: string) {
+  async getById(id: string): Promise<Order | null> {
     const data = await this.readData();
     return data.find((order) => order.id === id) || null;
   }

@@ -7,13 +7,6 @@
     "price": 15
   },
   {
-    "id": "2",
-    "customer": "Sarah Smith",
-    "quantity": 1,
-    "food": "Chicken Pizza",
-    "price": 20
-  },
-  {
     "id": "3",
     "customer": "Michael Johnson",
     "quantity": 3,
@@ -35,10 +28,10 @@
     "price": 18
   },
   {
-    "id": "81",
-    "customer": "Ameer",
-    "quantity": 4,
+    "id": "52",
+    "customer": "Jameel",
+    "quantity": 2,
     "food": "Kari",
-    "price": 1500
+    "price": 1000
   }
 ]

@@ -1,6 +1,9 @@
 import type { IncomingMessage, ServerResponse } from "http";
 
-export type Req = IncomingMessage;
+export type Method = "GET" | "POST" | "PUT" | "DELETE" | "PATCH";
+export type Req = IncomingMessage & {
+  method: Method;
+};
 export type Res = ServerResponse;
 
 export interface Order {
